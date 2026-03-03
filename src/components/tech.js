@@ -16,7 +16,7 @@ const Tech = () => {
           <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
             <div className="text-gray-400 dark:text-gray-400">
               <Image
-                src="/img/openai_logo.svg"
+                src="img/openai_logo.svg"
                 alt="Open AI"
                 width="142"
                 height="35"
@@ -24,7 +24,7 @@ const Tech = () => {
             </div>
             <div className="pt-1 text-gray-400 dark:text-gray-400">
               <Image
-                src="/img/python_logo.svg"
+                src="img/python_logo.svg"
                 alt="Python"
                 width="144"
                 height="35"
@@ -32,7 +32,7 @@ const Tech = () => {
             </div>
             <div className="pt-2 text-gray-400 dark:text-gray-400">
               <Image
-                src="/img/docker_logo.svg"
+                src="img/docker_logo.svg"
                 alt="Docker"
                 width="135"
                 height="35"
@@ -40,7 +40,7 @@ const Tech = () => {
             </div>
             <div className="pt-2 text-gray-400 dark:text-gray-400">
               <Image
-                src="/img/gcp_logo.svg"
+                src="img/gcp_logo.svg"
                 alt="Google Cloud Platform"
                 width="185"
                 height="29"
@@ -48,7 +48,7 @@ const Tech = () => {
             </div>
             <div className="text-gray-400 dark:text-gray-400">
               <Image
-                src="/img/nvidia_logo.svg"
+                src="img/nvidia_logo.svg"
                 alt="Nvidia"
                 width="185"
                 height="29"
