@@ -1,3 +1,4 @@
+"use client";
 import React, { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 
@@ -11,11 +12,11 @@ const ThemeChanger = () => {
   if (!mounted) return null;
 
   return (
-    <div className="flex items-center">
+    <div className="flex items-center order-last ">
       {theme === "dark" ? (
         <button
           onClick={() => setTheme("light")}
-          className="text-gray-300 rounded-full outline-none focus:outline-none">
+          className="text-gray-300 rounded-full outline-none focus:outline-none ">
           <span className="sr-only">Light Mode</span>
 
           <svg
