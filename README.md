@@ -64,3 +64,15 @@ Surjith S M ( [@surjithctly](https://surjithctly.in/) )
 
 
 
+
+## Deploy en GitHub Pages
+
+Este repo esta configurado para export estatico y publicar en GitHub Pages bajo:
+
+- https://mgaitan.github.io/katupyry/
+
+Pasos:
+
+1. En GitHub, abrir `Settings -> Pages`.
+2. En `Build and deployment`, elegir `Source: GitHub Actions`.
+3. Push a `main` para disparar el workflow `Deploy to GitHub Pages`.

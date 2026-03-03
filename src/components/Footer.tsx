@@ -16,7 +16,7 @@ export function Footer() {
                 href="/"
                 className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100"
               >
-                <Image src="/img/logo.svg" alt="K" width="32" height="32" className="w-8" />
+                <Image src="img/logo.svg" alt="K" width="32" height="32" className="w-8" />
                 <span>Katupyry</span>
               </Link>
             </div>
@@ -32,7 +32,7 @@ export function Footer() {
                 rel="noopener"
                 className="relative block w-44"
               >
-                <Image src="/img/vercel.svg" alt="Powered by Vercel" width="212" height="44" />
+                <Image src="img/vercel.svg" alt="Powered by Vercel" width="212" height="44" />
               </a>
             </div>
           </div>
