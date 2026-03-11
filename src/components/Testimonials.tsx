@@ -13,29 +13,45 @@ export const Testimonials = () => {
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              Mauro y Martin hacen un trabajo de integracion de IA que simplemente <Mark>funciona</Mark>
+              Los agentes de IA de Katupyry <Mark>automatizaron</Mark> la
+              gestion y los cobros a nuestros clientes sin sumar carga al
+              equipo.
             </p>
 
-            <Avatar image={userOneImg} name="Osvaldo Juarez" title="CEO radiocortes.io" />
+            <Avatar
+              image={userOneImg}
+              name="Lucia Ferrero"
+              title="CEO de cobralink.app"
+            />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              El bot de transcripcion basado en <Mark>inteligencia artificial</Mark> cambio la productividad de
+              El bot de transcripcion basado en{" "}
+              <Mark>inteligencia artificial</Mark> cambio la productividad de
               nuestros operadores.
             </p>
 
-            <Avatar image={userTwoImg} name="Silvio Rodriguez" title="Presidente de Unicornio Comunicacion" />
+            <Avatar
+              image={userTwoImg}
+              name="Silvio Rodriguez"
+              title="Presidente de Unicornio Comunicacion"
+            />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              Just <Mark>awesome</Mark>, very human people to work with.
+              Me ayudaron a <Mark>automatizar procesos internos</Mark>. No
+              requirio IA y me explicaron por qué.
             </p>
 
-            <Avatar image={userThreeImg} name="Vishal Kukreja" title="Co-founder of Vish LLC" />
+            <Avatar
+              image={userThreeImg}
+              name="Vishal Kukreja"
+              title="Co-founder of Vish LLC"
+            />
           </div>
         </div>
       </div>
@@ -53,7 +69,13 @@ function Avatar(props: Readonly<AvatarProps>) {
   return (
     <div className="flex items-center mt-8 space-x-3">
       <div className="flex-shrink-0 overflow-hidden rounded-full w-14 h-14">
-        <Image src={props.image} width="40" height="40" alt="Avatar" placeholder="blur" />
+        <Image
+          src={props.image}
+          width="40"
+          height="40"
+          alt="Avatar"
+          placeholder="blur"
+        />
       </div>
       <div>
         <div className="text-lg font-medium">{props.name}</div>
